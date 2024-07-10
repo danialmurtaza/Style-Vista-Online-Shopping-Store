@@ -203,6 +203,32 @@
   }
 }
 
+@media (max-width: 540px) {
+  .productdisplay {
+    flex-direction: column;
+    margin: 0 30px;
+  }
+
+  .productdisplay-left {
+    gap: 20px;
+    flex-direction: row;
+    margin: auto;
+  }
+
+  .productdisplay-img-list {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .productdisplay-main-img {
+    height: 361px;
+  }
+
+  .productdisplay-right {
+    margin: 0 10px;
+  }
+}
+
 @media (max-width: 430px) {
   .productdisplay {
     flex-direction: column;
