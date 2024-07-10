@@ -60,6 +60,13 @@
   }
 }
 
+@media (max-width: 540px) {
+  .collections {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+
 @media (max-width: 430px) {
   .collections {
     grid-template-columns: 1fr 1fr;
