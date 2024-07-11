@@ -133,3 +133,10 @@
     padding: 10px 20px;
   }
 }
+
+@media (max-width: 320px) {
+  .loginsignup-container {
+    width: 300px;
+    padding: 10px 20px;
+  }
+}
