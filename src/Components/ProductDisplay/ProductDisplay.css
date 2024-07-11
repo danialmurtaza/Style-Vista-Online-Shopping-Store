@@ -265,12 +265,14 @@
   }
 }
 
+@media (max-width: 344px) {
+  .productdisplay-main-img {
+    width: 220px;
+  }
+}
+
 @media (max-width: 320px) {
   .productdisplay-main-img {
     width: 200px;
-  }
-
-  .productdisplay-right {
-    margin: 0;
   }
 }
