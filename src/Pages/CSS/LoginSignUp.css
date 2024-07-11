@@ -134,9 +134,14 @@
   }
 }
 
+@media (max-width: 344px) {
+  .loginsignup-container {
+    width: 330px;
+  }
+}
+
 @media (max-width: 320px) {
   .loginsignup-container {
     width: 300px;
-    padding: 10px 20px;
   }
 }
